@@ -1,0 +1,91 @@
+body{
+    min-height: 3000px;
+}
+
+.head1{
+    display: flex;
+    width: 100vw;
+    height: 75px;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.big-h{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 30%;
+    color: white;
+}
+
+.small-h{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 20%;
+    color: grey;
+    font-size: 80%;
+    margin-right: 15%;
+    flex-direction: left;
+}
+
+.logo{
+    display:flex;
+    flex-direction: right;
+    margin-left: 15%;
+}
+
+.cool-image{
+    display: block;
+    height: 800px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.in-image-bar{
+    display: flex;
+    background: black;
+    opacity: 50%;
+    position: absolute;
+    top: 725px;
+    height: 150px;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.dragon{
+    display: flex;
+    opacity: 100%;
+    color: white;
+    font-size: 200%;
+}
+
+.button{
+    width: 180px;
+    height: 36px;
+    opacity: 100%;
+    color: black;
+    border-radius: 4%;
+}
+
+.sadness{
+    background: black;
+    height: 800px;
+    width: 100vw;
+}
+
+.word{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box-for-word{
+    width: 100vw;
+    height: 50px;
+    background: grey;
+    text-align: center;
+}
