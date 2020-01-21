@@ -1,6 +1,4 @@
-body{
-    min-height: 3000px;
-}
+
 
 .head1{
     display: flex;
@@ -72,20 +70,41 @@ body{
     border-radius: 4%;
 }
 
-.sadness{
+.back{
     background: black;
     height: 800px;
     width: 100vw;
 }
 
-.word{
-    display: flex;
-    justify-content: flex-end;
-}
-
 .box-for-word{
     width: 100vw;
     height: 50px;
-    background: grey;
     text-align: center;
+    padding:50px;
+}
+
+.box{
+    background: lightgrey;
+    width: 280px;
+    height: 260px;
+    margin: 20px;
+}
+
+.box-container{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.small-image{
+    width: 250px;
+    margin: 15px;
+}
+
+.word-under-image{
+    font-size: 105%;
+    margin-left: 15px;
+    margin-right: 15px;
 }
